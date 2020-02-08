@@ -22,24 +22,24 @@
                                     <outletCollection property="gestureRecognizers" destination="oo6-2T-WSX" appends="YES" id="s1a-e4-zul"/>
                                 </connections>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Choose Image to Punch:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHj-2Y-JnM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Choose Image to Punch:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHj-2Y-JnM">
                                 <rect key="frame" x="61" y="545" width="271" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="NQr-ln-Nt9">
-                                <rect key="frame" x="108" y="520.5" width="198" height="105.5"/>
+                                <rect key="frame" x="108" y="541" width="198" height="85"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qQ-lo-xbM">
-                                        <rect key="frame" x="0.0" y="0.0" width="92" height="105.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="92" height="85"/>
                                         <state key="normal" title="Photo Library"/>
                                         <connections>
                                             <action selector="libraryClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XPe-op-Bbb"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spG-Ss-7Rq">
-                                        <rect key="frame" x="122" y="0.0" width="76" height="105.5"/>
+                                        <rect key="frame" x="122" y="0.0" width="76" height="85"/>
                                         <state key="normal" title="Take Photo"/>
                                         <connections>
                                             <action selector="cameraPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4BL-vA-vdL"/>
